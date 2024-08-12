@@ -1,7 +1,13 @@
 import 'package:expense_tracker/widgets/expenses.dart';
 import 'package:flutter/material.dart';
+// import 'package:flutter/services.dart';
 
 void main() {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations([
+  //   DeviceOrientation.portraitUp,
+  // ]).then((fn) {
+  // });
   runApp(const MyApp());
 }
 
@@ -27,7 +33,7 @@ class MyApp extends StatelessWidget {
         elevatedButtonTheme: ElevatedButtonThemeData(
             style: ElevatedButton.styleFrom(
           backgroundColor: Darkcolorsheme.primaryContainer,
-              foregroundColor: Darkcolorsheme.onPrimaryContainer,
+          foregroundColor: Darkcolorsheme.onPrimaryContainer,
         )),
       ),
       theme: ThemeData().copyWith(

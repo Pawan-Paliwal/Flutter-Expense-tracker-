@@ -39,7 +39,7 @@ class Chart extends StatelessWidget {
         vertical: 16,
         horizontal: 8,
       ),
-      width: double.infinity,
+      // width: double.infinity,
       height: 180,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(8),
